@@ -1,0 +1,32 @@
+{
+  "name": "@deskproapps/app-manipulate-dom",
+  "version": "0.1.0",
+  "description": "Allows insertion of arbitrary markup into the parent DeskPro window",
+  "main": "lib/main/javascript/index.js",
+  "scripts": {
+    "dev": "dpat server .",
+    "package": "dpat clean . && dpat compile . && dpat verify ./dist && dpat package .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeskproApps/app-manipulate-dom.git"
+  },
+  "keywords": [
+    "deskpro"
+  ],
+  "author": "Deskpro",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/DeskproApps/app-manipulate-dom/issues"
+  },
+  "homepage": "https://github.com/DeskproApps/app-manipulate-dom#readme",
+  "dependencies": {
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.6",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  },
+  "devDependencies": {
+    "@deskproapps/dpat": "0.3.4"
+  }
+}
