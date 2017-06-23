@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "appVersion": "0.1.0",
+  "appVersion": "0.1.1",
   "name": "app-manipulate-dom",
   "title": "Manipulate DOM",
   "description": "package.json",

@@ -28,8 +28,8 @@ module.exports = function (env) {
   configParts.push({
     devtool: PRODUCTION ? false : 'source-map',
     entry: {
-        main: [ path.resolve(PROJECT_ROOT_PATH, 'src/webpack/entrypoint.js') ],
-        vendor: BuildUtils.autoVendorDependencies(PROJECT_ROOT_PATH)
+      main: [ path.resolve(PROJECT_ROOT_PATH, 'src/webpack/entrypoint.js') ],
+      vendor: BuildUtils.autoVendorDependencies(PROJECT_ROOT_PATH)
     },
     externals: {
       'react': 'React',
