@@ -1,4 +1,4 @@
-# app-manipulate-dom
+# labs-manipulate-dom
 
 Allows insertion of arbitrary markup into the parent DeskPro window
 
@@ -36,4 +36,4 @@ and a zip file named `app.zip`. This `app.zip` file is the one required to insta
 
 ## Documentation
 
- View online docs at: https://deskproapps.github.io/app-manipulate-dom
+ View online docs at: https://deskproapps.github.io/labs-manipulate-dom
