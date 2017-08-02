@@ -6,7 +6,6 @@ Allows insertion of arbitrary markup into the parent DeskPro window
 - [Installation](#installation)
 - [Development](#development)
 - [Packaging](#packaging)
-- [Running tests](#running-tests)
 
 ## Installation
     
