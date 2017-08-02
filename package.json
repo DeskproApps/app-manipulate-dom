@@ -1,6 +1,6 @@
 {
   "name": "@deskproapps/labs-manipulate-dom",
-  "version": "0.1.2-beta.1",
+  "version": "0.1.2-beta.2",
   "description": "Allows insertion of arbitrary markup into the parent DeskPro window",
   "main": "lib/main/javascript/index.js",
   "scripts": {
@@ -24,16 +24,21 @@
   "dependencies": {
     "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.9"
   },
-  "deskpro" : {
+  "deskpro": {
     "version": "2.1.0",
     "title": "Manipulate DOM",
     "isSingle": true,
     "scope": "agent",
     "targets": [
-      { "target": "background", "url": "html/index.html" }
+      {
+        "target": "background",
+        "url": "html/index.html"
+      }
     ],
     "settings": [],
-    "deskproApiTags": ["tickets.*"],
+    "deskproApiTags": [
+      "tickets.*"
+    ],
     "externalApis": []
   },
   "devDependencies": {
