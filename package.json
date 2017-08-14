@@ -15,7 +15,11 @@
   "keywords": [
     "deskpro"
   ],
-  "author": "Deskpro",
+  "author": {
+    "name": "DeskPRO Ltd.",
+    "email": "apps@deskpro.com",
+    "url": "https://deskpro.com"
+  },
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/DeskproApps/labs-manipulate-dom/issues"
