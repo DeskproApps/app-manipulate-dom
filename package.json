@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/DeskproApps/labs-manipulate-dom#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.9"
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.14"
   },
   "deskpro": {
     "version": "2.1.0",
@@ -46,7 +46,7 @@
     "externalApis": []
   },
   "devDependencies": {
-    "@deskproapps/dpat": "0.4.9",
+    "@deskproapps/dpat": "0.5.2",
     "react": "15.5.3",
     "react-dom": "15.5.3"
   }
