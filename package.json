@@ -1,6 +1,6 @@
 {
-  "name": "@deskproapps/app-manipulate-dom",
-  "version": "0.1.0",
+  "name": "@deskproapps/labs-manipulate-dom",
+  "version": "0.1.2-beta.5",
   "description": "Allows insertion of arbitrary markup into the parent DeskPro window",
   "main": "lib/main/javascript/index.js",
   "scripts": {
@@ -10,23 +10,44 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeskproApps/app-manipulate-dom.git"
+    "url": "git+https://github.com/DeskproApps/labs-manipulate-dom.git"
   },
   "keywords": [
     "deskpro"
   ],
-  "author": "Deskpro",
+  "author": {
+    "name": "DeskPRO Ltd.",
+    "email": "apps@deskpro.com",
+    "url": "https://deskpro.com"
+  },
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/DeskproApps/app-manipulate-dom/issues"
+    "url": "https://github.com/DeskproApps/labs-manipulate-dom/issues"
   },
-  "homepage": "https://github.com/DeskproApps/app-manipulate-dom#readme",
+  "homepage": "https://github.com/DeskproApps/labs-manipulate-dom#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "^1.0.0-alpha.9",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.14"
+  },
+  "deskpro": {
+    "version": "2.1.0",
+    "title": "Manipulate DOM",
+    "isSingle": true,
+    "scope": "agent",
+    "targets": [
+      {
+        "target": "background",
+        "url": "html/index.html"
+      }
+    ],
+    "settings": [],
+    "deskproApiTags": [
+      "tickets.*"
+    ],
+    "externalApis": []
   },
   "devDependencies": {
-    "@deskproapps/dpat": "0.3.4"
+    "@deskproapps/dpat": "0.5.2",
+    "react": "15.5.3",
+    "react-dom": "15.5.3"
   }
 }
